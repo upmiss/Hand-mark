@@ -5,3 +5,4 @@
 ```js
 var TraEng = window.TranslateEnglish;
 var eng = new TraEng();
+```
