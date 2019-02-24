@@ -1,0 +1,33 @@
+{
+  "name": "hand-mark",
+  "version": "0.0.1",
+  "description": "在网页文本上快速标记并翻译出单词，词库来自‘谷歌翻译’",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upmiss/Hand-mark.git"
+  },
+  "keywords": [
+    "translate"
+  ],
+  "author": "upmiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upmiss/Hand-mark/issues"
+  },
+  "homepage": "https://github.com/upmiss/Hand-mark#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
