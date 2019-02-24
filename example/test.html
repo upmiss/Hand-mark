@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>代码测试</title>
 </head>
 
 <body>
   <p>Translate English</p>
   <script src="../release/bundle.js"></script>
+  <script>
+    var TrEng = window.TranslateEnglish;
+    var eng = new TrEng();
+    eng.set('a', 100);
+    alert(eng.get('a'))
+  </script>
 </body>
 
 </html>
